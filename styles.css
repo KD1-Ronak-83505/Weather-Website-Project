@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family:'Open Sans', 'sans-serif';
+    font-size: 120%;
+}
+.card{     /* to style with class we put'.'*/
+    background: #000000d0;
+    height: 40%;
+    color:white;
+    width: 100%; 
+    padding: 2em;
+    padding-bottom: 3em;
+    border-radius: 17px;
+    max-width: 420px;
+} 
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{    /* to directly style without class (no need of '.')*/
+    border-radius:50%; 
+    margin: 0.1em;
+    margin-left: 7px;
+    border: none;
+    padding: 1em;
+    background:#7c7c7c2b;
+    color:azure;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background-color: #7c7c7c6b;
+}
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+.inputSearch{
+    background:#7c7c7c2b;
+    border:none;
+    width: 95%; 
+    color:white;
+    font-size: 100%;
+    outline:none;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
